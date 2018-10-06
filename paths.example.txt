@@ -1,0 +1,4 @@
+/home/joe/some_folder
+/home/joe/.bashrc
+/home/joe/.ssh/config
+/etc/nginx/sites-enabled/
