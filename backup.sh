@@ -1,3 +1,5 @@
+#!/bin/bash
+
 FORMATTED_DATE=$(date "+%y%m%d_%H%M")
 ZIP_NAME_WITH_DATETIME="backup_$FORMATTED_DATE.zip"
 BACKUP_PATHS=$(cat paths.txt)
