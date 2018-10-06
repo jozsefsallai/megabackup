@@ -45,6 +45,8 @@ chmod +x backup.sh
 
 You should see the output of each step in your terminal.
 
+*Note: The script was made to primarily work on Debian-based machines. If you use something else (e.g. CentOS, Arch, etc.), you might want to edit the `MYSQL_DEFAULTS_EXTRA_FILE` variable in the `backup.sh` file, depending on the distribution you're using.*
+
 ## Automation
 
 You can use `cron` or any similar utility to automate the script execution. Here's a cron entry for every 30 minutes.
