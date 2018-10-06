@@ -31,7 +31,7 @@ done <<< "$BACKUP_PATHS"
 
 echo "Creating MySQL dumps..."
 
-sudo mysqldump --defaults-extra-file=$MYSQL_DEFAULTS_EXTRA_FILE > "db/backup_${FORMATTED_DATE}.sql"
+sudo mysqldump --defaults-extra-file=$MYSQL_DEFAULTS_EXTRA_FILE --all-databases > "db/backup_${FORMATTED_DATE}.sql"
 
 echo "Zipping..."
 
