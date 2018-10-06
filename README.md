@@ -52,7 +52,7 @@ You should see the output of each step in your terminal.
 You can use `cron` or any similar utility to automate the script execution. Here's a cron entry for every 30 minutes.
 
 ```
-*/30 * * * * sh /path/to/megabackup/backup.sh >/dev/null 2>&1
+*/30 * * * * cd /path/to/megabackup/ && ./backup.sh >/dev/null 2>&1
 ```
 
 ## License
